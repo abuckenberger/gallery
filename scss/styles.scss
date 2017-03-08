@@ -8,19 +8,25 @@ YOUR STYLES
 *******************/
 
 body {
-    background: blue;
+    background: pink;
 }
 
 figure {
-    background: yellow;
-    width:25%;
+    background: hotpink;
+    width:50%;
 }
 figure figcaption {
     font-family: futura, sans-serif;
+    color: white;
 }
 
 .caption {
   display: none;
+}
+
+img {
+    display:flex;
+    
 }
 
 
