@@ -7,13 +7,27 @@
 YOUR STYLES
 *******************/
 
+
+
+
 body {
     background: pink;
+}
+main {
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 
 figure {
     background: hotpink;
     width:50%;
+    padding: 20px;
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
 }
 figure figcaption {
     font-family: futura, sans-serif;
@@ -25,7 +39,7 @@ figure figcaption {
 }
 
 img {
-    display:flex;
+    
     
 }
 
@@ -49,6 +63,11 @@ MEDIA QUERIES
        background: yellow;
        content: "Mobile Size";
   }
+figure {
+    
+    width:100%;
+        
+    }
   
 }
 
@@ -60,6 +79,12 @@ MEDIA QUERIES
        background: yellow;
        content: "Tablet Size";
   }
+    
+    figure {
+    
+    width:50%;
+        
+    }
 
 }
 
@@ -71,5 +96,19 @@ MEDIA QUERIES
        background: yellow;
        content: "Desktop Size";
   }
+    
+    figure {
+    
+    width:45%;
+        
+    }
+    
+    //Main container
+
+.gallery {
+    width:90%;
+    margin: 0 auto;
+    
+}
 
 }
