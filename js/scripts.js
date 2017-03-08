@@ -1,5 +1,12 @@
 // YOUR SCRIPTS GO HERE
+// ACTIVATE GALLERY
 
 $('figure').lightGallery({
-  selector: 'a'
+    selector: 'a',
+    thumbnail:true,
+    zoom:true
+    
 });
+
+
+
