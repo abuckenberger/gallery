@@ -21,7 +21,7 @@ main {
 
 figure {
     background: hotpink;
-    width:50%;
+    width:100%;
     padding: 20px;
     
     display:flex;
@@ -30,8 +30,11 @@ figure {
     
 }
 figure figcaption {
-    font-family: futura, sans-serif;
+    font-family: english towne;
     color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
 
 .caption {
@@ -82,7 +85,8 @@ figure {
     
     figure {
     
-    width:50%;
+    width:95%;
+    
         
     }
 
@@ -99,14 +103,14 @@ figure {
     
     figure {
     
-    width:45%;
+    width:95%;
         
     }
     
     //Main container
 
 .gallery {
-    width:90%;
+    width:95%;
     margin: 0 auto;
     
 }
