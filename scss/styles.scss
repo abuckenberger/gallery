@@ -8,6 +8,9 @@ YOUR STYLES
 *******************/
 
 
+h1{
+    color: white;
+}
 
 
 body {
@@ -17,10 +20,12 @@ body {
 main {
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
 }
 h1:hover {
-    cursor: url('cursor.cur');
+    cursor: pointer;
     color: #e0dbd6;
 }
 
@@ -59,6 +64,34 @@ img {
 
 
 
+
+// CURSOR STYLES thumbnails
+
+.refresh a {
+     cursor: url(http://i.imgur.com/42PRg2R.png), pointer;
+}
+
+.and a {
+    cursor: url(http://i.imgur.com/3gVcy2J.png), pointer;
+}
+
+.crybaby a {
+    
+     cursor: url(http://i.imgur.com/XdEKERZ.png), pointer;
+}
+
+.refresh img {
+    cursor: url(http://i.imgur.com/42PRg2R.png), pointer;
+    
+}
+
+//img cursor global styles make a thumb one?
+
+
+.lg-outer.lg-grab img.lg-object {
+    
+    cursor: url(http://i.imgur.com/oLL7DZs.png), pointer;
+}
 
 
 
