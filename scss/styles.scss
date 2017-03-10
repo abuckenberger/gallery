@@ -12,6 +12,7 @@ YOUR STYLES
 
 body {
     background: #f5f0ea;
+     
 }
 main {
     display:flex;
@@ -19,7 +20,7 @@ main {
     
 }
 h1:hover {
-    cursor: pointer;
+    cursor: url('cursor.cur');
     color: #e0dbd6;
 }
 
