@@ -6,6 +6,7 @@
 /********************
 YOUR STYLES
 *******************/
+
 lg.backdrop {
     background-color:white;
 }
@@ -29,7 +30,7 @@ h1 {
     font-weight: bold;
     font-size: 13em;
     
-    }
+}
 
 figure figcaption {
     font-family: english towne;
@@ -42,8 +43,6 @@ figure figcaption {
   display: none;
     
 }
-
-
 
 // CURSOR STYLES thumbnails
 
@@ -71,22 +70,11 @@ h1 {
     
 }
 
-
-//idk yet
-.local {
-    display:none;
-}
-
-
-
-
-//img cursor global styles make a thumb one?
-
-
 .lg-outer.lg-grab img.lg-object {
     cursor: url(http://i.imgur.com/oLL7DZs.png), pointer;
     
 }
+
 
 //lightgallery style
 
@@ -103,8 +91,12 @@ lg.backdrop.in {
     color: gray;
 }
 
+//hide figures
 
 
+.and, .refresh, .crybaby {
+    display:none;
+}
 
 
 /********************

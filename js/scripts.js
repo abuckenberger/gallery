@@ -1,3 +1,12 @@
+var everything = ['.and', '.crybaby', '.refresh']
+//show/hide content
+
+$('h1').click(function(){
+  $('h1').hide(10);
+  $('figure').fadeIn(3000);
+  
+});
+
 //random number generator
 var maxRand = 15;
 var numRand = Math.floor( Math.random() * maxRand );
@@ -22,25 +31,3 @@ $('figure').lightGallery({
     zoom:true
     
 });
-
-//On h1 click the content appears
-
-
-
-
-//On each h1 click the background changes 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
