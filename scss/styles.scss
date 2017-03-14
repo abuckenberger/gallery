@@ -12,10 +12,8 @@ h1{
     color: white;
 }
 
-
 body {
-    background: #f5f0ea;
-     
+    background: #f5f0ea;   
 }
 main {
     display:flex;
@@ -35,13 +33,14 @@ figure {
     background:black;
     width:100%;
     padding: 20px;
+    margin: 0;
     
-    display:none;
+    display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    align-items:stretch;
+    transform: scale(.25);
     
 }
-
 figure:hover {
     background:none;
 }
@@ -52,16 +51,12 @@ figure figcaption {
     display: flex;
     align-items: center;
 }
-
 .caption {
   display: none;
 }
-
-img {
-    
+.crybaby {
     
 }
-
 
 
 
@@ -77,6 +72,7 @@ img {
 
 .crybaby a {
     
+    
      cursor: url(http://i.imgur.com/XdEKERZ.png), pointer;
 }
 
@@ -84,6 +80,7 @@ img {
     cursor: url(http://i.imgur.com/42PRg2R.png), pointer;
     
 }
+
 
 //img cursor global styles make a thumb one?
 
