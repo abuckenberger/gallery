@@ -7,31 +7,14 @@
 YOUR STYLES
 *******************/
 
-
-h1{
-    color: white;
-}
-body {
-     
-}
 figure {
-    width:100%;
-    padding: 20px;
-    margin: 0;
-    
-    display: flex;
+    display: inline-flex;
     flex-wrap:wrap;
-    align-items:stretch;
-    
-    
+    flex-flow:column;
+    margin: 2px;
+          
 }
-main {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;   
-    
-}
+
 h1:hover {
     cursor: pointer;
     color: #e0dbd6;
@@ -49,11 +32,7 @@ figure figcaption {
   display: none;
     
 }
-img {
-    width: 50%;
-    height:auto;
-    
-}
+
 
 // CURSOR STYLES thumbnails
 
@@ -109,11 +88,18 @@ img {
     height:auto;
     
 }
+    main {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    
+}
   
 }
 
 /* Tablet:  768px = 160em */
-@media screen and (min-width: 48em)  {
+@media screen and (min-width: 40em)  {
 
   /* Diagnostic Styling. Delete When Done. */
   body:before {
@@ -126,15 +112,17 @@ img {
         
     }
     img {
-    width: 70%;
+    width: 100%;
     height:auto;
     
 }
+    
 
+    
 }
 
 /* Desktop: 1280px = 80em */
-@media screen and (min-width: 80em) { 
+@media screen and (min-width: 70em) { 
   
   /* Diagnostic Styling. Delete When Done. */
   body:before {
@@ -142,17 +130,20 @@ img {
        content: "Desktop Size";
   }
     
+    .gallery {
+    display:inline-flex;
+    flex-flow:row;
+    align-content: stretch;
+    width:100%;
+}
+    
     figure {
-        width:95%;
+        width:100%;
         
     }
     
     //Main container
 
-.gallery {
-    width:95%;
-    margin: 0 auto;
-    
-}
+
 
 }
