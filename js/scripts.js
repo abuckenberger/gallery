@@ -10,8 +10,8 @@ console.log(bgcolor[numRand]);
 
 //store color change function
 
-var colorchange = function(){('body').css('background-color', bgcolor[numRand]);
-                            };
+$('h1').css('color', bgcolor[numRand]);
+                           
 
 // YOUR SCRIPTS GO HERE
 // ACTIVATE GALLERY
@@ -25,11 +25,7 @@ $('figure').lightGallery({
 
 //On h1 click the content appears
 
-$('h1').click(function(){
-    
-$colorchange(); 
-  
-});
+
 
 
 //On each h1 click the background changes 
