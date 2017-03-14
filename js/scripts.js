@@ -7,6 +7,7 @@ $('h1').click(function(){
   
 });
 
+
 //random number generator
 var maxRand = 15;
 var numRand = Math.floor( Math.random() * maxRand );
@@ -31,3 +32,4 @@ $('figure').lightGallery({
     zoom:true
     
 });
+
