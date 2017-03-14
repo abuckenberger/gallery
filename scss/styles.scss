@@ -11,27 +11,10 @@ YOUR STYLES
 h1{
     color: white;
 }
-
 body {
-    background: #f5f0ea;   
+     
 }
-main {
-    display:flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-h1:hover {
-    cursor: pointer;
-    color: #e0dbd6;
-}
-
 figure {
-    
-    /*****take background off *****/
-    background:black;
     width:100%;
     padding: 20px;
     margin: 0;
@@ -39,12 +22,22 @@ figure {
     display: flex;
     flex-wrap:wrap;
     align-items:stretch;
-    transform: scale(.25);
+    
     
 }
-figure:hover {
-    background:none;
+main {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+    
 }
+h1:hover {
+    cursor: pointer;
+    color: #e0dbd6;
+    
+}
+
 figure figcaption {
     font-family: english towne;
     color: white;
@@ -54,30 +47,29 @@ figure figcaption {
 }
 .caption {
   display: none;
-}
-.crybaby {
     
 }
-.and {
-    transform: scale(.15);
+img {
+    width: 50%;
+    height:auto;
+    
 }
-
-
 
 // CURSOR STYLES thumbnails
 
 .refresh a {
      cursor: url(http://i.imgur.com/42PRg2R.png), pointer;
+    
 }
 
 .and a {
     cursor: url(http://i.imgur.com/3gVcy2J.png), pointer;
+    
 }
 
 .crybaby a {
+    cursor: url(http://i.imgur.com/XdEKERZ.png), pointer;
     
-    
-     cursor: url(http://i.imgur.com/XdEKERZ.png), pointer;
 }
 
 .refresh img {
@@ -90,8 +82,8 @@ figure figcaption {
 
 
 .lg-outer.lg-grab img.lg-object {
-    
     cursor: url(http://i.imgur.com/oLL7DZs.png), pointer;
+    
 }
 
 
@@ -112,10 +104,14 @@ MEDIA QUERIES
        content: "Mobile Size";
   }
 figure {
-    
     width:100%;
         
     }
+img {
+    width: 100%;
+    height:auto;
+    
+}
   
 }
 
@@ -129,11 +125,14 @@ figure {
   }
     
     figure {
-    
-    width:95%;
-    
+        width:95%;
         
     }
+    img {
+    width: 70%;
+    height:auto;
+    
+}
 
 }
 
@@ -147,8 +146,7 @@ figure {
   }
     
     figure {
-    
-    width:95%;
+        width:95%;
         
     }
     

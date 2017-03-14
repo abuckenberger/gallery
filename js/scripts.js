@@ -27,7 +27,7 @@ $('figure').lightGallery({
 
 $('h1').click(function(){
     
- $('figure').fadeIn('1s'); 
+$colorchange(); 
   
 });
 
