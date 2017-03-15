@@ -3,9 +3,10 @@ var everything = ['.and', '.crybaby', '.refresh']
 
 $('h1').click(function(){
   $('h1').hide(10);
-  $('figure').fadeIn(3000);
+  $('figure, .back').fadeIn(3000);
   
 });
+
 
 
 //random number generator
